@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+padding: 0px;
+}
+.container{
+    border: 6px solid brown;
+    /* display: flex; */
+    display: grid;
+    height: 800px;
+    /* display: inline-grid; */
+    /* grid-template-rows: 100px 200px 300px 400px; */
+    /* grid-template-columns: 100px 200px 300px; */
+    /* grid-template-columns: repeat(3, 100px); */
+    /* grid-template-rows: repeat(3, 100px); */
+     /* grid-template-columns: 2fr 2fr 2fr; fr means fraction  */
+     /* grid-template-rows: 2fr 2fr 2fr; fr means fraction */
+     /* grid-template-columns: repeat(3,minmax(200px 1fr)); */
+     grid-template: repeat(3,200px) / repeat(3,200px);
+     /* column-gap: 20px; */
+     /* row-gap: 10px; */
+     gap: 10px 20px;
+     justify-items:start;
+     align-content: flex-start;
+      place-items:center ; 
+     /* align-items: center; */
+
+}
+.grid-item{
+    color: black;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+.item-1{
+    background-color:red;
+}
+.item-2{
+    background-color:red;
+}
+.item-3{
+    background-color:red;
+}
+.item-4{
+    background-color:rgb(158, 91, 66);
+}
+.item-5{
+ 
+    background-color:rgb(173, 85, 53);
+}
+.item-6{
+    background-color:rgb(177, 97, 67);
+}
+.item-7{
+    background-color:yellow;
+}
+.item-8{
+    background-color:yellow;
+}
+.item-9{
+    background-color:yellow;
+}
